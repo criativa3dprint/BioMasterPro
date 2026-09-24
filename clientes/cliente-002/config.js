@@ -31,7 +31,7 @@ const BIOPRO_CONFIG = {
             "Beleza, cuidado e autoestima em cada detalhe.",
 
         logo:
-            "clientes/cliente-001/assets/logo/logo.png"
+            "clientes/cliente-002/assets/logo/logo.png"
 
     },
 
@@ -43,7 +43,7 @@ const BIOPRO_CONFIG = {
 	destaque: {
 
 		imagem:
-			"clientes/cliente-001/assets/fotos/destaque.png",
+			"clientes/cliente-002/assets/fotos/destaque.png",
 
 		alt:
 			"Trabalho realizado pelo salão"
@@ -132,7 +132,7 @@ const BIOPRO_CONFIG = {
 
     portfolio: [
 
-        "clientes/cliente-001/assets/fotos/foto-01.jpg",
+        "clientes/cliente-002/assets/fotos/foto-01.jpg",
 
         "clientes/cliente-001/assets/fotos/foto-02.jpg",
 		
