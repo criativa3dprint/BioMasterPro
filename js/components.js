@@ -161,43 +161,25 @@ function renderDestaque(config) {
 
     }
 
-
     const section =
         criarElemento(
             "section",
             ["bio-highlight"]
         );
 
-
     const img =
         document.createElement("img");
-
 
     img.src =
         config.destaque.imagem;
 
-
     img.alt =
-        config.destaque.alt ||
         "Imagem de destaque";
-
-
-    img.loading =
-        "lazy";
-
-
-    img.onerror = function () {
-
-        section.style.display =
-            "none";
-
-    };
-
 
     section.appendChild(img);
 
-
     return section;
+
 }
 
 /* ========================================
