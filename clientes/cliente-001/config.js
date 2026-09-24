@@ -43,7 +43,7 @@ const BIOPRO_CONFIG = {
 	destaque: {
 
 		imagem:
-			"clientes/cliente-001/assets/fotos/destaque.jpg",
+			"clientes/cliente-001/assets/fotos/destaque.png",
 
 		alt:
 			"Trabalho realizado pelo salão"
