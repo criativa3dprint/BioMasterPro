@@ -1,34 +1,28 @@
 /* ========================================
    BIOPRO
    CLIENTE 002
-   CONFIGURAÇÃO
    ======================================== */
 
 const BIOPRO_CONFIG = {
 
-    /* ====================================
-       IDENTIFICAÇÃO
-       ==================================== */
-
     id: "cliente-002",
 
-    tema: "botanic",
-
-	marca: {
-		mostrarBioPro: true
-	},
+    tema: "luxury",
 
 
-    /* ====================================
-       PERFIL
-       ==================================== */
+    marca: {
+
+        mostrarBioPro: true
+
+    },
+
 
     perfil: {
 
-        nome: "Nome do Salão",
+        nome: "Studio Elegance",
 
         descricao:
-            "Beleza, cuidado e autoestima em cada detalhe.",
+            "Beleza, sofisticação e cuidado em cada detalhe.",
 
         logo:
             "clientes/cliente-002/assets/logo/logo.png"
@@ -36,127 +30,124 @@ const BIOPRO_CONFIG = {
     },
 
 
-    /* ====================================
-       DESTAQUE
-       ==================================== */
+    destaque: {
 
-	destaque: {
+        imagem:
+            "clientes/cliente-002/assets/fotos/destaque.jpg",
 
-		imagem:
-			"clientes/cliente-002/assets/fotos/destaque.png",
+        alt:
+            "Imagem de destaque do Studio Elegance"
 
-		alt:
-			"Trabalho realizado pelo salão"
+    },
 
-	},
-
-
-    /* ====================================
-       LINKS
-       ==================================== */
 
     links: [
 
         {
-            nome: "Agendar pelo WhatsApp",
 
-            icone: "whatsapp",
+            nome:
+                "Agendar atendimento",
 
-            url: "https://wa.me/",
+            icone:
+                "agenda",
 
-            ativo: true
+            url:
+                "#",
+
+            ativo:
+                true
+
         },
 
         {
-            nome: "Instagram",
 
-            icone: "instagram",
+            nome:
+                "WhatsApp",
 
-            url: "#",
+            icone:
+                "whatsapp",
 
-            ativo: true
+            url:
+                "#",
+
+            ativo:
+                true
+
         },
 
         {
-            nome: "Conheça nossos serviços",
 
-            icone: "servicos",
+            nome:
+                "Instagram",
 
-            url: "#servicos",
+            icone:
+                "instagram",
 
-            ativo: true
+            url:
+                "#",
+
+            ativo:
+                true
+
         }
 
     ],
 
-
-    /* ====================================
-       SERVIÇOS
-       ==================================== */
 
     servicos: [
 
         {
-            nome: "Corte",
+
+            nome:
+                "Corte e finalização",
 
             descricao:
-                "Corte personalizado.",
+                "Atendimento personalizado.",
 
-            ativo: true
+            ativo:
+                true
+
         },
 
         {
-            nome: "Coloração",
+
+            nome:
+                "Coloração",
 
             descricao:
-                "Coloração e transformação.",
+                "Técnicas personalizadas para cada cliente.",
 
-            ativo: true
+            ativo:
+                true
+
         },
 
         {
-            nome: "Tratamentos",
+
+            nome:
+                "Tratamentos",
 
             descricao:
-                "Cuidados para seus cabelos.",
+                "Cuidados e recuperação dos fios.",
 
-            ativo: true
+            ativo:
+                true
+
         }
 
     ],
 
 
-    /* ====================================
-       PORTFÓLIO
-       ==================================== */
+    portfolio: [],
 
-    portfolio: [
-
-        "clientes/cliente-002/assets/fotos/foto-01.jpg",
-
-        "clientes/cliente-001/assets/fotos/foto-02.jpg",
-		
-		"clientes/cliente-001/assets/fotos/foto-04.jpg",
-		
-		"clientes/cliente-001/assets/fotos/foto-05.jpg",
-		
-		"clientes/cliente-001/assets/fotos/foto-06.jpg",
-
-        "clientes/cliente-001/assets/fotos/foto-03.jpg"
-
-    ],
-
-
-    /* ====================================
-       LOCALIZAÇÃO
-       ==================================== */
 
     localizacao: {
 
-        ativo: true,
+        ativo:
+            true,
 
         endereco:
-            "Endereço do estabelecimento",
+            "Endereço do Studio Elegance",
 
         mapa:
             "#"
@@ -164,49 +155,48 @@ const BIOPRO_CONFIG = {
     },
 
 
-    /* ====================================
-       REDES SOCIAIS
-       ==================================== */
-
     redes: {
 
-        instagram: "#",
+        instagram:
+            "#",
 
-        facebook: "#",
+        facebook:
+            "#",
 
-        tiktok: "#"
+        tiktok:
+            "#"
 
     },
 
-
-    /* ====================================
-       COMPONENTES ATIVOS
-       ==================================== */
 
     componentes: {
 
-        perfil: true,
+        perfil:
+            true,
 
-        links: true,
+        links:
+            true,
 
-        destaque: true,
+        destaque:
+            true,
 
-        servicos: true,
+        servicos:
+            true,
 
-        portfolio: true,
+        portfolio:
+            true,
 
-        localizacao: true,
+        localizacao:
+            true,
 
-        redes: true,
+        redes:
+            true,
 
-        rodape: true
+        rodape:
+            true
 
     },
 
-
-    /* ====================================
-       ORDEM DOS COMPONENTES
-       ==================================== */
 
     ordem: [
 
