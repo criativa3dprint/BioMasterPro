@@ -25,7 +25,7 @@ const BIOPRO_CONFIG = {
             "Beleza, sofisticação e cuidado em cada detalhe.",
 
         logo:
-            "clientes/cliente-002/assets/logo/logo.png"
+            "clientes/cliente-001/assets/logo/logo.png"
 
     },
 
