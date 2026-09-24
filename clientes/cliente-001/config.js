@@ -12,7 +12,7 @@ const BIOPRO_CONFIG = {
 
     id: "cliente-001",
 
-    tema: "romantic",
+    tema: "botanic",
 
 	marca: {
 		mostrarBioPro: true
