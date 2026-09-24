@@ -12,7 +12,7 @@
 function criarElemento(
     tag,
     classes = []
-) {
+   ) {
 
     const elemento =
         document.createElement(tag);
@@ -21,11 +21,11 @@ function criarElemento(
 
         elemento.classList.add(classe);
 
-    });
+       });
 
     return elemento;
 
-}
+   }
 
 
 /* ========================================
@@ -48,7 +48,7 @@ function renderPerfil(config) {
     if (
         config.perfil &&
         config.perfil.logo
-    ) {
+       ) {
 
         const img =
             document.createElement("img");
